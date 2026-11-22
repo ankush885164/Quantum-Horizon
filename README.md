@@ -2,135 +2,139 @@
 ### Financial Market Intelligence & Big Data Analytics
 
 <p align="center">
-  <strong>From market data engineering to interactive financial intelligence</strong>
+  <strong>Turning market data into actionable financial intelligence</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/invictussss/Quantum-Horizon"><img src="https://img.shields.io/badge/Repository-Quantum--Horizon-181717?logo=github" alt="GitHub repository"></a>
-  <img src="https://img.shields.io/badge/Architecture-Medallion%20Lakehouse-blue" alt="Medallion architecture">
+  <img src="https://img.shields.io/badge/Architecture-Medallion%20Lakehouse-blue" alt="Medallion Architecture">
   <img src="https://img.shields.io/badge/Processing-Apache%20Spark-orange?logo=apachespark" alt="Apache Spark">
   <img src="https://img.shields.io/badge/Platform-Databricks-red?logo=databricks" alt="Databricks">
   <img src="https://img.shields.io/badge/BI-Power%20BI-yellow?logo=powerbi" alt="Power BI">
+  <img src="https://img.shields.io/badge/Language-Python-3776AB?logo=python&logoColor=white" alt="Python">
 </p>
 
 ---
 
-## 📌 Project Overview
+## 📌 About the Project
 
-**Quantum Horizon** is a financial market intelligence and Big Data analytics project. It brings together market-data extraction, distributed processing, structured analytics, quantitative indicators, and business-intelligence dashboards.
+**Quantum Horizon** is a financial market intelligence and Big Data analytics project that combines market-data extraction, large-scale data processing, quantitative analysis, and interactive dashboards.
 
-The data-engineering workflow is organized around a **Bronze → Silver → Gold Medallion Architecture** using Python, Apache Spark / PySpark, Databricks, and Delta Lake. Curated outputs are prepared for analytical reporting and dashboard consumption.
+The project organizes its data-engineering workflow around the **Bronze → Silver → Gold Medallion Architecture**. Python is used for data extraction and supporting analytics, while Apache Spark / PySpark and Delta Lake support distributed transformation and curated data preparation. Dashboard assets provide an interactive view of financial metrics and market trends.
 
-The repository also contains quantitative analysis scripts, a market-trend notebook, dashboard assets, and Power BI-related work.
+## ✨ Key Capabilities
 
-## 📊 Dashboard Preview
+- Market data extraction and historical price analysis
+- Bronze, Silver, and Gold data-processing layers
+- Data cleaning, validation, standardization, and deduplication
+- Financial indicators such as moving averages, RSI, Bollinger Bands, returns, and volatility
+- Sector-level performance and market-breadth analysis
+- Dashboard views for financial KPIs, portfolio metrics, and market trends
+- Power BI-oriented reporting and dimensional data preparation
 
-The following screenshot shows the interactive Power BI market-intelligence dashboard.
+## 📊 Dashboard Gallery
 
-![Quantum Horizon Power BI Dashboard](assets/powerbi-dashboard.jpeg)
+The repository includes dashboard screenshots and HTML dashboard implementations.
 
-### Dashboard highlights
+<p align="center">
+  <img src="Assets/Dashboard%20png%201.jpeg" alt="Quantum Horizon dashboard preview 1" width="90%">
+</p>
 
-- Portfolio Net Asset Value (NAV) and daily P&L
-- Unrealized gain and cost basis
-- Sharpe ratio, beta, and realized volatility
-- Interactive price trajectory with moving averages and Bollinger Bands
-- Sector allocation breakdown
-- Institutional holdings matrix
-- Market, symbol, currency, and timeframe filters
+<p align="center">
+  <img src="Assets/Dashboard%20png%202.jpeg" alt="Quantum Horizon dashboard preview 2" width="90%">
+</p>
+
+<p align="center">
+  <img src="Assets/Dashboard%20png%203.jpeg" alt="Quantum Horizon dashboard preview 3" width="90%">
+</p>
+
+<p align="center">
+  <img src="Assets/Dashboard%20png%204.jpeg" alt="Quantum Horizon dashboard preview 4" width="90%">
+</p>
+
+### Explore the dashboard files
+
+- [Interactive dashboard (HTML)](BDA%20Project/financial-market-intelligence/04_dashboard/index.html)
+- [Power BI-style dashboard (HTML)](BDA%20Project/financial-market-intelligence/05_powerbi_dashboard/index.html)
+- [Dashboard source and supporting files](BDA%20Project/financial-market-intelligence/04_dashboard/)
+- [Power BI dashboard assets](BDA%20Project/financial-market-intelligence/05_powerbi_dashboard/)
+
+*Note: These are repository-hosted HTML files. To use them as a live website, enable GitHub Pages or run the files locally as described in the project documentation.*
 
 ## 🏗️ Data Engineering Architecture
 
-The documented pipeline follows this flow:
-
 ```text
-Market Data Extraction
+Market Data Sources
         |
         v
-Raw Landing / Ingestion
+Python Data Extraction
         |
         v
-BRONZE - Raw Delta Tables
+Raw Data / Landing Zone
         |
         v
-SILVER - Cleaned & Validated Data
+BRONZE  - Raw data ingestion
         |
         v
-GOLD - Curated Analytics & Star Schema
+SILVER  - Cleaning, validation & standardization
         |
         v
-Power BI / Tableau Reporting
+GOLD    - Curated analytics & reporting tables
+        |
+        v
+Power BI / Dashboard Consumption
 ```
-
-### Medallion layers
 
 | Layer | Purpose |
 |---|---|
-| **Bronze** | Ingest and preserve source data with ingestion metadata. |
-| **Silver** | Clean, validate, standardize, and deduplicate records. |
-| **Gold** | Calculate analytical metrics and prepare curated reporting tables. |
+| **Bronze** | Ingests and preserves raw source data with ingestion metadata. |
+| **Silver** | Cleans, validates, standardizes, and deduplicates records. |
+| **Gold** | Produces curated analytical datasets, indicators, and reporting outputs. |
 
-For the detailed pipeline design, data dictionary, architecture diagram, and execution guide, see the [Financial Market Intelligence documentation](BDA%20Project/financial-market-intelligence/README.md).
-
-## 📈 Analytics & Quantitative Features
-
-The project documentation and scripts cover financial analysis such as:
-
-- Moving averages and trend signals
-- RSI and Bollinger Bands
-- Daily and logarithmic returns
-- Rolling realized volatility
-- Sector performance and market breadth
-- Investment recommendation logic
-- Long-horizon market-data analysis
-
-The dashboard screenshot is an illustrative view of the interactive reporting layer; calculated values depend on the selected data and filters.
+For the detailed design, data dictionary, architecture diagram, and execution instructions, visit the [Financial Market Intelligence documentation](BDA%20Project/financial-market-intelligence/README.md) and [architecture diagram](BDA%20Project/financial-market-intelligence/architecture-diagram.md).
 
 ## 🛠️ Technology Stack
 
-| Area | Tools |
+| Area | Technologies |
 |---|---|
-| Data extraction | Python, yfinance, pandas, requests |
+| Programming & extraction | Python, yfinance, pandas, requests |
 | Distributed processing | Apache Spark, PySpark, Spark SQL |
 | Lakehouse storage | Delta Lake |
-| Data platform & governance | Databricks, Unity Catalog |
+| Data platform | Databricks, Unity Catalog |
 | Analytics | NumPy, pandas, SciPy, scikit-learn |
 | Business intelligence | Microsoft Power BI, Tableau |
-| Visualization / app layer | Streamlit, Plotly, Chart.js |
-| Data modeling | Star Schema, DAX, Power Query |
+| Dashboard / visualization | Streamlit, Plotly, Chart.js, HTML |
 
 ## 🗂️ Repository Structure
 
 ```text
 Quantum-Horizon/
 ├── README.md
-├── assets/
-│   └── powerbi-dashboard.jpeg
+├── Assets/
+│   ├── Dashboard png 1.jpeg
+│   ├── Dashboard png 2.jpeg
+│   ├── Dashboard png 3.jpeg
+│   └── Dashboard png 4.jpeg
 └── BDA Project/
-    ├── financial-market-intelligence/
-    │   ├── README.md
-    │   ├── architecture-diagram.md
-    │   ├── 01_extraction/
-    │   ├── 02_databricks_notebooks/
-    │   ├── 03_dashboard_export/
-    │   ├── 04_dashboard/
-    │   ├── 05_powerbi_dashboard/
-    │   ├── add_investment_recommendation_engine.py
-    │   ├── generate_10y_global_data.py
-    │   ├── live_market_trend_analysis.ipynb
-    │   ├── upgrade_10y_global_intelligence.py
-    │   └── upgrade_pbi_10y.py
-    └── (additional project scripts)
+    └── financial-market-intelligence/
+        ├── README.md
+        ├── architecture-diagram.md
+        ├── 01_extraction/
+        ├── 02_databricks_notebooks/
+        ├── 03_dashboard_export/
+        ├── 04_dashboard/
+        ├── 05_powerbi_dashboard/
+        └── supporting Python scripts and notebooks
 ```
 
 ## 🚀 Getting Started
 
 1. Open the [Financial Market Intelligence project folder](BDA%20Project/financial-market-intelligence/).
-2. Read its [detailed README and execution guide](BDA%20Project/financial-market-intelligence/README.md).
+2. Read the [detailed project guide](BDA%20Project/financial-market-intelligence/README.md).
 3. Review the [architecture diagram](BDA%20Project/financial-market-intelligence/architecture-diagram.md).
-4. Follow the extraction, Databricks notebook, and dashboard-export steps documented there.
+4. Follow the prerequisites and execution steps in the detailed guide.
+5. Explore the dashboard HTML files linked above.
 
-> **Note:** The detailed README contains the pipeline-specific prerequisites, commands, storage paths, and Databricks execution instructions. Follow that guide for the current implementation rather than assuming the project can be run from the repository root.
+> **Important:** The pipeline uses Databricks-specific storage and execution paths. Follow the detailed documentation and adjust the configuration for your own Databricks workspace or local environment.
 
 ## 👥 Project Team
 
@@ -143,7 +147,7 @@ Quantum-Horizon/
 
 ## ⚠️ Disclaimer
 
-This project is intended for educational and analytical purposes. Quantitative indicators and model-generated recommendations are informational outputs, not personalized investment advice.
+This project is intended for educational and analytical purposes. Quantitative indicators and model-generated outputs are informational and should not be treated as personalized investment advice.
 
 ---
 
