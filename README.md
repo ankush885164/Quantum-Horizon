@@ -51,7 +51,7 @@ The project follows a Medallion Lakehouse architecture.
 
 The Power BI Quantum Canvas provides an interactive financial intelligence dashboard.
 
-![Power BI Dashboard](assets/powerbi-dashboard.png)
+![Power BI Dashboard](assets/powerbi-dashboard.jpeg)
 
 ### Key Features
 
