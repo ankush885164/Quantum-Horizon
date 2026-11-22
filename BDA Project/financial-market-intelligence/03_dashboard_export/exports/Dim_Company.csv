@@ -1,0 +1,7 @@
+symbol,company_name,sector,industry,market_cap,market_cap_category,sector_key
+HDFCBANK.NS,HDFC Bank Ltd,Financial Services,Private Banking,12500000000000,Large Cap,2
+ICICIBANK.NS,ICICI Bank Ltd,Financial Services,Private Banking,7800000000000,Large Cap,2
+INFY.NS,Infosys Ltd,Information Technology,IT Services,6500000000000,Large Cap,3
+NTPC.NS,NTPC Ltd,Utilities,Power Generation,3400000000000,Large Cap,4
+RELIANCE.NS,Reliance Industries Ltd,Energy,Oil & Gas Refining,19500000000000,Large Cap,1
+TCS.NS,Tata Consultancy Services Ltd,Information Technology,IT Services,14000000000000,Large Cap,3

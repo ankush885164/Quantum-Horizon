@@ -1,0 +1,12 @@
+symbol,company_name,sector,industry,market,currency,market_cap,market_cap_category,sector_key
+RELIANCE.NS,Reliance Industries Ltd,Energy,Oil & Gas Refining,NSE (India),INR,19500000000000,Mega Cap,1
+TCS.NS,Tata Consultancy Services Ltd,Technology,IT Consulting & Software,NSE (India),INR,14000000000000,Mega Cap,2
+HDFCBANK.NS,HDFC Bank Ltd,Financials,Private Sector Banking,NSE (India),INR,12500000000000,Mega Cap,3
+INFY.NS,Infosys Ltd,Technology,IT Services,NSE (India),INR,6500000000000,Large Cap,2
+ICICIBANK.NS,ICICI Bank Ltd,Financials,Private Sector Banking,NSE (India),INR,7800000000000,Large Cap,3
+NVDA,NVIDIA Corporation,Technology,Semiconductors & AI,NASDAQ (US),USD,3150000000000,Mega Cap,2
+MSFT,Microsoft Corporation,Technology,Cloud & Enterprise Software,NASDAQ (US),USD,3320000000000,Mega Cap,2
+AAPL,Apple Inc.,Technology,Consumer Electronics,NASDAQ (US),USD,3450000000000,Mega Cap,2
+ASML,ASML Holding NV,Technology,Semiconductor Equipment,NASDAQ (US),USD,370000000000,Large Cap,2
+BTC-USD,Bitcoin Core Treasury,Financials,Digital Asset Reserve,Global Crypto,USD,1240000000000,Mega Cap,3
+USDINR=X,USD / INR Currency Pair,Financials,Foreign Exchange,Global Forex,INR,0,Forex,3

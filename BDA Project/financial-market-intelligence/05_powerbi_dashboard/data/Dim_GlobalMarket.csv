@@ -1,0 +1,7 @@
+market_key,market_code,exchange_name,country,region,currency,trading_hours
+1,US,NASDAQ / NYSE,United States,North America,USD,09:30 - 16:00 EST
+2,NSE,National Stock Exchange of India,India,Asia-Pacific,INR,09:15 - 15:30 IST
+3,EUR,Euronext / Deutsche Börse / LSE,European Union / UK,Europe,EUR/GBP,08:00 - 16:30 GMT
+4,APAC,Tokyo / Taiwan / Hong Kong,Japan / Taiwan / HK,Asia-Pacific,JPY/TWD/HKD,09:00 - 15:00 JST
+5,MACRO,NYMEX / COMEX / Treasury,Global,Global Macro,USD,24 Hours Global
+6,CRYPTO,Decentralized Liquidity & Global CEX,Global Digital,Global Digital,USD,24/7/365 Continuous

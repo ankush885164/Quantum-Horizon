@@ -1,0 +1,622 @@
+date_key,full_date,year,quarter,month,month_name,week_number,is_stress_crisis_period,crisis_label
+20150102,2015-01-02,2015,Q1,1,January,1,0,Nominal Expansion
+20150109,2015-01-09,2015,Q1,1,January,2,0,Nominal Expansion
+20150116,2015-01-16,2015,Q1,1,January,3,0,Nominal Expansion
+20150123,2015-01-23,2015,Q1,1,January,4,0,Nominal Expansion
+20150130,2015-01-30,2015,Q1,1,January,5,0,Nominal Expansion
+20150206,2015-02-06,2015,Q1,2,February,6,0,Nominal Expansion
+20150213,2015-02-13,2015,Q1,2,February,7,0,Nominal Expansion
+20150220,2015-02-20,2015,Q1,2,February,8,0,Nominal Expansion
+20150227,2015-02-27,2015,Q1,2,February,9,0,Nominal Expansion
+20150306,2015-03-06,2015,Q1,3,March,10,0,Nominal Expansion
+20150313,2015-03-13,2015,Q1,3,March,11,0,Nominal Expansion
+20150320,2015-03-20,2015,Q1,3,March,12,0,Nominal Expansion
+20150327,2015-03-27,2015,Q1,3,March,13,0,Nominal Expansion
+20150403,2015-04-03,2015,Q2,4,April,14,0,Nominal Expansion
+20150410,2015-04-10,2015,Q2,4,April,15,0,Nominal Expansion
+20150417,2015-04-17,2015,Q2,4,April,16,0,Nominal Expansion
+20150424,2015-04-24,2015,Q2,4,April,17,0,Nominal Expansion
+20150501,2015-05-01,2015,Q2,5,May,18,0,Nominal Expansion
+20150508,2015-05-08,2015,Q2,5,May,19,0,Nominal Expansion
+20150515,2015-05-15,2015,Q2,5,May,20,0,Nominal Expansion
+20150522,2015-05-22,2015,Q2,5,May,21,0,Nominal Expansion
+20150529,2015-05-29,2015,Q2,5,May,22,0,Nominal Expansion
+20150605,2015-06-05,2015,Q2,6,June,23,0,Nominal Expansion
+20150612,2015-06-12,2015,Q2,6,June,24,0,Nominal Expansion
+20150619,2015-06-19,2015,Q2,6,June,25,0,Nominal Expansion
+20150626,2015-06-26,2015,Q2,6,June,26,0,Nominal Expansion
+20150703,2015-07-03,2015,Q3,7,July,27,0,Nominal Expansion
+20150710,2015-07-10,2015,Q3,7,July,28,0,Nominal Expansion
+20150717,2015-07-17,2015,Q3,7,July,29,0,Nominal Expansion
+20150724,2015-07-24,2015,Q3,7,July,30,0,Nominal Expansion
+20150731,2015-07-31,2015,Q3,7,July,31,0,Nominal Expansion
+20150807,2015-08-07,2015,Q3,8,August,32,1,2015-16 Oil Deflation & Yuan Shock
+20150814,2015-08-14,2015,Q3,8,August,33,1,2015-16 Oil Deflation & Yuan Shock
+20150821,2015-08-21,2015,Q3,8,August,34,1,2015-16 Oil Deflation & Yuan Shock
+20150828,2015-08-28,2015,Q3,8,August,35,1,2015-16 Oil Deflation & Yuan Shock
+20150904,2015-09-04,2015,Q3,9,September,36,1,2015-16 Oil Deflation & Yuan Shock
+20150911,2015-09-11,2015,Q3,9,September,37,1,2015-16 Oil Deflation & Yuan Shock
+20150918,2015-09-18,2015,Q3,9,September,38,1,2015-16 Oil Deflation & Yuan Shock
+20150925,2015-09-25,2015,Q3,9,September,39,1,2015-16 Oil Deflation & Yuan Shock
+20151002,2015-10-02,2015,Q4,10,October,40,1,2015-16 Oil Deflation & Yuan Shock
+20151009,2015-10-09,2015,Q4,10,October,41,1,2015-16 Oil Deflation & Yuan Shock
+20151016,2015-10-16,2015,Q4,10,October,42,1,2015-16 Oil Deflation & Yuan Shock
+20151023,2015-10-23,2015,Q4,10,October,43,1,2015-16 Oil Deflation & Yuan Shock
+20151030,2015-10-30,2015,Q4,10,October,44,1,2015-16 Oil Deflation & Yuan Shock
+20151106,2015-11-06,2015,Q4,11,November,45,1,2015-16 Oil Deflation & Yuan Shock
+20151113,2015-11-13,2015,Q4,11,November,46,1,2015-16 Oil Deflation & Yuan Shock
+20151120,2015-11-20,2015,Q4,11,November,47,1,2015-16 Oil Deflation & Yuan Shock
+20151127,2015-11-27,2015,Q4,11,November,48,1,2015-16 Oil Deflation & Yuan Shock
+20151204,2015-12-04,2015,Q4,12,December,49,1,2015-16 Oil Deflation & Yuan Shock
+20151211,2015-12-11,2015,Q4,12,December,50,1,2015-16 Oil Deflation & Yuan Shock
+20151218,2015-12-18,2015,Q4,12,December,51,1,2015-16 Oil Deflation & Yuan Shock
+20151225,2015-12-25,2015,Q4,12,December,52,1,2015-16 Oil Deflation & Yuan Shock
+20160101,2016-01-01,2016,Q1,1,January,53,0,Nominal Expansion
+20160108,2016-01-08,2016,Q1,1,January,1,0,Nominal Expansion
+20160115,2016-01-15,2016,Q1,1,January,2,0,Nominal Expansion
+20160122,2016-01-22,2016,Q1,1,January,3,0,Nominal Expansion
+20160129,2016-01-29,2016,Q1,1,January,4,0,Nominal Expansion
+20160205,2016-02-05,2016,Q1,2,February,5,0,Nominal Expansion
+20160212,2016-02-12,2016,Q1,2,February,6,0,Nominal Expansion
+20160219,2016-02-19,2016,Q1,2,February,7,0,Nominal Expansion
+20160226,2016-02-26,2016,Q1,2,February,8,0,Nominal Expansion
+20160304,2016-03-04,2016,Q1,3,March,9,0,Nominal Expansion
+20160311,2016-03-11,2016,Q1,3,March,10,0,Nominal Expansion
+20160318,2016-03-18,2016,Q1,3,March,11,0,Nominal Expansion
+20160325,2016-03-25,2016,Q1,3,March,12,0,Nominal Expansion
+20160401,2016-04-01,2016,Q2,4,April,13,0,Nominal Expansion
+20160408,2016-04-08,2016,Q2,4,April,14,0,Nominal Expansion
+20160415,2016-04-15,2016,Q2,4,April,15,0,Nominal Expansion
+20160422,2016-04-22,2016,Q2,4,April,16,0,Nominal Expansion
+20160429,2016-04-29,2016,Q2,4,April,17,0,Nominal Expansion
+20160506,2016-05-06,2016,Q2,5,May,18,0,Nominal Expansion
+20160513,2016-05-13,2016,Q2,5,May,19,0,Nominal Expansion
+20160520,2016-05-20,2016,Q2,5,May,20,0,Nominal Expansion
+20160527,2016-05-27,2016,Q2,5,May,21,0,Nominal Expansion
+20160603,2016-06-03,2016,Q2,6,June,22,0,Nominal Expansion
+20160610,2016-06-10,2016,Q2,6,June,23,0,Nominal Expansion
+20160617,2016-06-17,2016,Q2,6,June,24,0,Nominal Expansion
+20160624,2016-06-24,2016,Q2,6,June,25,0,Nominal Expansion
+20160701,2016-07-01,2016,Q3,7,July,26,0,Nominal Expansion
+20160708,2016-07-08,2016,Q3,7,July,27,0,Nominal Expansion
+20160715,2016-07-15,2016,Q3,7,July,28,0,Nominal Expansion
+20160722,2016-07-22,2016,Q3,7,July,29,0,Nominal Expansion
+20160729,2016-07-29,2016,Q3,7,July,30,0,Nominal Expansion
+20160805,2016-08-05,2016,Q3,8,August,31,0,Nominal Expansion
+20160812,2016-08-12,2016,Q3,8,August,32,0,Nominal Expansion
+20160819,2016-08-19,2016,Q3,8,August,33,0,Nominal Expansion
+20160826,2016-08-26,2016,Q3,8,August,34,0,Nominal Expansion
+20160902,2016-09-02,2016,Q3,9,September,35,0,Nominal Expansion
+20160909,2016-09-09,2016,Q3,9,September,36,0,Nominal Expansion
+20160916,2016-09-16,2016,Q3,9,September,37,0,Nominal Expansion
+20160923,2016-09-23,2016,Q3,9,September,38,0,Nominal Expansion
+20160930,2016-09-30,2016,Q3,9,September,39,0,Nominal Expansion
+20161007,2016-10-07,2016,Q4,10,October,40,0,Nominal Expansion
+20161014,2016-10-14,2016,Q4,10,October,41,0,Nominal Expansion
+20161021,2016-10-21,2016,Q4,10,October,42,0,Nominal Expansion
+20161028,2016-10-28,2016,Q4,10,October,43,0,Nominal Expansion
+20161104,2016-11-04,2016,Q4,11,November,44,0,Nominal Expansion
+20161111,2016-11-11,2016,Q4,11,November,45,0,Nominal Expansion
+20161118,2016-11-18,2016,Q4,11,November,46,0,Nominal Expansion
+20161125,2016-11-25,2016,Q4,11,November,47,0,Nominal Expansion
+20161202,2016-12-02,2016,Q4,12,December,48,0,Nominal Expansion
+20161209,2016-12-09,2016,Q4,12,December,49,0,Nominal Expansion
+20161216,2016-12-16,2016,Q4,12,December,50,0,Nominal Expansion
+20161223,2016-12-23,2016,Q4,12,December,51,0,Nominal Expansion
+20161230,2016-12-30,2016,Q4,12,December,52,0,Nominal Expansion
+20170106,2017-01-06,2017,Q1,1,January,1,0,Nominal Expansion
+20170113,2017-01-13,2017,Q1,1,January,2,0,Nominal Expansion
+20170120,2017-01-20,2017,Q1,1,January,3,0,Nominal Expansion
+20170127,2017-01-27,2017,Q1,1,January,4,0,Nominal Expansion
+20170203,2017-02-03,2017,Q1,2,February,5,0,Nominal Expansion
+20170210,2017-02-10,2017,Q1,2,February,6,0,Nominal Expansion
+20170217,2017-02-17,2017,Q1,2,February,7,0,Nominal Expansion
+20170224,2017-02-24,2017,Q1,2,February,8,0,Nominal Expansion
+20170303,2017-03-03,2017,Q1,3,March,9,0,Nominal Expansion
+20170310,2017-03-10,2017,Q1,3,March,10,0,Nominal Expansion
+20170317,2017-03-17,2017,Q1,3,March,11,0,Nominal Expansion
+20170324,2017-03-24,2017,Q1,3,March,12,0,Nominal Expansion
+20170331,2017-03-31,2017,Q1,3,March,13,0,Nominal Expansion
+20170407,2017-04-07,2017,Q2,4,April,14,0,Nominal Expansion
+20170414,2017-04-14,2017,Q2,4,April,15,0,Nominal Expansion
+20170421,2017-04-21,2017,Q2,4,April,16,0,Nominal Expansion
+20170428,2017-04-28,2017,Q2,4,April,17,0,Nominal Expansion
+20170505,2017-05-05,2017,Q2,5,May,18,0,Nominal Expansion
+20170512,2017-05-12,2017,Q2,5,May,19,0,Nominal Expansion
+20170519,2017-05-19,2017,Q2,5,May,20,0,Nominal Expansion
+20170526,2017-05-26,2017,Q2,5,May,21,0,Nominal Expansion
+20170602,2017-06-02,2017,Q2,6,June,22,0,Nominal Expansion
+20170609,2017-06-09,2017,Q2,6,June,23,0,Nominal Expansion
+20170616,2017-06-16,2017,Q2,6,June,24,0,Nominal Expansion
+20170623,2017-06-23,2017,Q2,6,June,25,0,Nominal Expansion
+20170630,2017-06-30,2017,Q2,6,June,26,0,Nominal Expansion
+20170707,2017-07-07,2017,Q3,7,July,27,0,Nominal Expansion
+20170714,2017-07-14,2017,Q3,7,July,28,0,Nominal Expansion
+20170721,2017-07-21,2017,Q3,7,July,29,0,Nominal Expansion
+20170728,2017-07-28,2017,Q3,7,July,30,0,Nominal Expansion
+20170804,2017-08-04,2017,Q3,8,August,31,0,Nominal Expansion
+20170811,2017-08-11,2017,Q3,8,August,32,0,Nominal Expansion
+20170818,2017-08-18,2017,Q3,8,August,33,0,Nominal Expansion
+20170825,2017-08-25,2017,Q3,8,August,34,0,Nominal Expansion
+20170901,2017-09-01,2017,Q3,9,September,35,0,Nominal Expansion
+20170908,2017-09-08,2017,Q3,9,September,36,0,Nominal Expansion
+20170915,2017-09-15,2017,Q3,9,September,37,0,Nominal Expansion
+20170922,2017-09-22,2017,Q3,9,September,38,0,Nominal Expansion
+20170929,2017-09-29,2017,Q3,9,September,39,0,Nominal Expansion
+20171006,2017-10-06,2017,Q4,10,October,40,0,Nominal Expansion
+20171013,2017-10-13,2017,Q4,10,October,41,0,Nominal Expansion
+20171020,2017-10-20,2017,Q4,10,October,42,0,Nominal Expansion
+20171027,2017-10-27,2017,Q4,10,October,43,0,Nominal Expansion
+20171103,2017-11-03,2017,Q4,11,November,44,0,Nominal Expansion
+20171110,2017-11-10,2017,Q4,11,November,45,0,Nominal Expansion
+20171117,2017-11-17,2017,Q4,11,November,46,0,Nominal Expansion
+20171124,2017-11-24,2017,Q4,11,November,47,0,Nominal Expansion
+20171201,2017-12-01,2017,Q4,12,December,48,0,Nominal Expansion
+20171208,2017-12-08,2017,Q4,12,December,49,0,Nominal Expansion
+20171215,2017-12-15,2017,Q4,12,December,50,0,Nominal Expansion
+20171222,2017-12-22,2017,Q4,12,December,51,0,Nominal Expansion
+20171229,2017-12-29,2017,Q4,12,December,52,0,Nominal Expansion
+20180105,2018-01-05,2018,Q1,1,January,1,0,Nominal Expansion
+20180112,2018-01-12,2018,Q1,1,January,2,0,Nominal Expansion
+20180119,2018-01-19,2018,Q1,1,January,3,0,Nominal Expansion
+20180126,2018-01-26,2018,Q1,1,January,4,0,Nominal Expansion
+20180202,2018-02-02,2018,Q1,2,February,5,0,Nominal Expansion
+20180209,2018-02-09,2018,Q1,2,February,6,0,Nominal Expansion
+20180216,2018-02-16,2018,Q1,2,February,7,0,Nominal Expansion
+20180223,2018-02-23,2018,Q1,2,February,8,0,Nominal Expansion
+20180302,2018-03-02,2018,Q1,3,March,9,0,Nominal Expansion
+20180309,2018-03-09,2018,Q1,3,March,10,0,Nominal Expansion
+20180316,2018-03-16,2018,Q1,3,March,11,0,Nominal Expansion
+20180323,2018-03-23,2018,Q1,3,March,12,0,Nominal Expansion
+20180330,2018-03-30,2018,Q1,3,March,13,0,Nominal Expansion
+20180406,2018-04-06,2018,Q2,4,April,14,0,Nominal Expansion
+20180413,2018-04-13,2018,Q2,4,April,15,0,Nominal Expansion
+20180420,2018-04-20,2018,Q2,4,April,16,0,Nominal Expansion
+20180427,2018-04-27,2018,Q2,4,April,17,0,Nominal Expansion
+20180504,2018-05-04,2018,Q2,5,May,18,0,Nominal Expansion
+20180511,2018-05-11,2018,Q2,5,May,19,0,Nominal Expansion
+20180518,2018-05-18,2018,Q2,5,May,20,0,Nominal Expansion
+20180525,2018-05-25,2018,Q2,5,May,21,0,Nominal Expansion
+20180601,2018-06-01,2018,Q2,6,June,22,0,Nominal Expansion
+20180608,2018-06-08,2018,Q2,6,June,23,0,Nominal Expansion
+20180615,2018-06-15,2018,Q2,6,June,24,0,Nominal Expansion
+20180622,2018-06-22,2018,Q2,6,June,25,0,Nominal Expansion
+20180629,2018-06-29,2018,Q2,6,June,26,0,Nominal Expansion
+20180706,2018-07-06,2018,Q3,7,July,27,0,Nominal Expansion
+20180713,2018-07-13,2018,Q3,7,July,28,0,Nominal Expansion
+20180720,2018-07-20,2018,Q3,7,July,29,0,Nominal Expansion
+20180727,2018-07-27,2018,Q3,7,July,30,0,Nominal Expansion
+20180803,2018-08-03,2018,Q3,8,August,31,0,Nominal Expansion
+20180810,2018-08-10,2018,Q3,8,August,32,0,Nominal Expansion
+20180817,2018-08-17,2018,Q3,8,August,33,0,Nominal Expansion
+20180824,2018-08-24,2018,Q3,8,August,34,0,Nominal Expansion
+20180831,2018-08-31,2018,Q3,8,August,35,0,Nominal Expansion
+20180907,2018-09-07,2018,Q3,9,September,36,0,Nominal Expansion
+20180914,2018-09-14,2018,Q3,9,September,37,0,Nominal Expansion
+20180921,2018-09-21,2018,Q3,9,September,38,0,Nominal Expansion
+20180928,2018-09-28,2018,Q3,9,September,39,0,Nominal Expansion
+20181005,2018-10-05,2018,Q4,10,October,40,0,Nominal Expansion
+20181012,2018-10-12,2018,Q4,10,October,41,0,Nominal Expansion
+20181019,2018-10-19,2018,Q4,10,October,42,0,Nominal Expansion
+20181026,2018-10-26,2018,Q4,10,October,43,0,Nominal Expansion
+20181102,2018-11-02,2018,Q4,11,November,44,0,Nominal Expansion
+20181109,2018-11-09,2018,Q4,11,November,45,0,Nominal Expansion
+20181116,2018-11-16,2018,Q4,11,November,46,0,Nominal Expansion
+20181123,2018-11-23,2018,Q4,11,November,47,0,Nominal Expansion
+20181130,2018-11-30,2018,Q4,11,November,48,0,Nominal Expansion
+20181207,2018-12-07,2018,Q4,12,December,49,0,Nominal Expansion
+20181214,2018-12-14,2018,Q4,12,December,50,0,Nominal Expansion
+20181221,2018-12-21,2018,Q4,12,December,51,0,Nominal Expansion
+20181228,2018-12-28,2018,Q4,12,December,52,0,Nominal Expansion
+20190104,2019-01-04,2019,Q1,1,January,1,0,Nominal Expansion
+20190111,2019-01-11,2019,Q1,1,January,2,0,Nominal Expansion
+20190118,2019-01-18,2019,Q1,1,January,3,0,Nominal Expansion
+20190125,2019-01-25,2019,Q1,1,January,4,0,Nominal Expansion
+20190201,2019-02-01,2019,Q1,2,February,5,0,Nominal Expansion
+20190208,2019-02-08,2019,Q1,2,February,6,0,Nominal Expansion
+20190215,2019-02-15,2019,Q1,2,February,7,0,Nominal Expansion
+20190222,2019-02-22,2019,Q1,2,February,8,0,Nominal Expansion
+20190301,2019-03-01,2019,Q1,3,March,9,0,Nominal Expansion
+20190308,2019-03-08,2019,Q1,3,March,10,0,Nominal Expansion
+20190315,2019-03-15,2019,Q1,3,March,11,0,Nominal Expansion
+20190322,2019-03-22,2019,Q1,3,March,12,0,Nominal Expansion
+20190329,2019-03-29,2019,Q1,3,March,13,0,Nominal Expansion
+20190405,2019-04-05,2019,Q2,4,April,14,0,Nominal Expansion
+20190412,2019-04-12,2019,Q2,4,April,15,0,Nominal Expansion
+20190419,2019-04-19,2019,Q2,4,April,16,0,Nominal Expansion
+20190426,2019-04-26,2019,Q2,4,April,17,0,Nominal Expansion
+20190503,2019-05-03,2019,Q2,5,May,18,0,Nominal Expansion
+20190510,2019-05-10,2019,Q2,5,May,19,0,Nominal Expansion
+20190517,2019-05-17,2019,Q2,5,May,20,0,Nominal Expansion
+20190524,2019-05-24,2019,Q2,5,May,21,0,Nominal Expansion
+20190531,2019-05-31,2019,Q2,5,May,22,0,Nominal Expansion
+20190607,2019-06-07,2019,Q2,6,June,23,0,Nominal Expansion
+20190614,2019-06-14,2019,Q2,6,June,24,0,Nominal Expansion
+20190621,2019-06-21,2019,Q2,6,June,25,0,Nominal Expansion
+20190628,2019-06-28,2019,Q2,6,June,26,0,Nominal Expansion
+20190705,2019-07-05,2019,Q3,7,July,27,0,Nominal Expansion
+20190712,2019-07-12,2019,Q3,7,July,28,0,Nominal Expansion
+20190719,2019-07-19,2019,Q3,7,July,29,0,Nominal Expansion
+20190726,2019-07-26,2019,Q3,7,July,30,0,Nominal Expansion
+20190802,2019-08-02,2019,Q3,8,August,31,0,Nominal Expansion
+20190809,2019-08-09,2019,Q3,8,August,32,0,Nominal Expansion
+20190816,2019-08-16,2019,Q3,8,August,33,0,Nominal Expansion
+20190823,2019-08-23,2019,Q3,8,August,34,0,Nominal Expansion
+20190830,2019-08-30,2019,Q3,8,August,35,0,Nominal Expansion
+20190906,2019-09-06,2019,Q3,9,September,36,0,Nominal Expansion
+20190913,2019-09-13,2019,Q3,9,September,37,0,Nominal Expansion
+20190920,2019-09-20,2019,Q3,9,September,38,0,Nominal Expansion
+20190927,2019-09-27,2019,Q3,9,September,39,0,Nominal Expansion
+20191004,2019-10-04,2019,Q4,10,October,40,0,Nominal Expansion
+20191011,2019-10-11,2019,Q4,10,October,41,0,Nominal Expansion
+20191018,2019-10-18,2019,Q4,10,October,42,0,Nominal Expansion
+20191025,2019-10-25,2019,Q4,10,October,43,0,Nominal Expansion
+20191101,2019-11-01,2019,Q4,11,November,44,0,Nominal Expansion
+20191108,2019-11-08,2019,Q4,11,November,45,0,Nominal Expansion
+20191115,2019-11-15,2019,Q4,11,November,46,0,Nominal Expansion
+20191122,2019-11-22,2019,Q4,11,November,47,0,Nominal Expansion
+20191129,2019-11-29,2019,Q4,11,November,48,0,Nominal Expansion
+20191206,2019-12-06,2019,Q4,12,December,49,0,Nominal Expansion
+20191213,2019-12-13,2019,Q4,12,December,50,0,Nominal Expansion
+20191220,2019-12-20,2019,Q4,12,December,51,0,Nominal Expansion
+20191227,2019-12-27,2019,Q4,12,December,52,0,Nominal Expansion
+20200103,2020-01-03,2020,Q1,1,January,1,0,Nominal Expansion
+20200110,2020-01-10,2020,Q1,1,January,2,0,Nominal Expansion
+20200117,2020-01-17,2020,Q1,1,January,3,0,Nominal Expansion
+20200124,2020-01-24,2020,Q1,1,January,4,0,Nominal Expansion
+20200131,2020-01-31,2020,Q1,1,January,5,0,Nominal Expansion
+20200207,2020-02-07,2020,Q1,2,February,6,1,2020 COVID-19 Flash Crash
+20200214,2020-02-14,2020,Q1,2,February,7,1,2020 COVID-19 Flash Crash
+20200221,2020-02-21,2020,Q1,2,February,8,1,2020 COVID-19 Flash Crash
+20200228,2020-02-28,2020,Q1,2,February,9,1,2020 COVID-19 Flash Crash
+20200306,2020-03-06,2020,Q1,3,March,10,1,2020 COVID-19 Flash Crash
+20200313,2020-03-13,2020,Q1,3,March,11,1,2020 COVID-19 Flash Crash
+20200320,2020-03-20,2020,Q1,3,March,12,1,2020 COVID-19 Flash Crash
+20200327,2020-03-27,2020,Q1,3,March,13,1,2020 COVID-19 Flash Crash
+20200403,2020-04-03,2020,Q2,4,April,14,1,2020 COVID-19 Flash Crash
+20200410,2020-04-10,2020,Q2,4,April,15,1,2020 COVID-19 Flash Crash
+20200417,2020-04-17,2020,Q2,4,April,16,1,2020 COVID-19 Flash Crash
+20200424,2020-04-24,2020,Q2,4,April,17,1,2020 COVID-19 Flash Crash
+20200501,2020-05-01,2020,Q2,5,May,18,0,Nominal Expansion
+20200508,2020-05-08,2020,Q2,5,May,19,0,Nominal Expansion
+20200515,2020-05-15,2020,Q2,5,May,20,0,Nominal Expansion
+20200522,2020-05-22,2020,Q2,5,May,21,0,Nominal Expansion
+20200529,2020-05-29,2020,Q2,5,May,22,0,Nominal Expansion
+20200605,2020-06-05,2020,Q2,6,June,23,0,Nominal Expansion
+20200612,2020-06-12,2020,Q2,6,June,24,0,Nominal Expansion
+20200619,2020-06-19,2020,Q2,6,June,25,0,Nominal Expansion
+20200626,2020-06-26,2020,Q2,6,June,26,0,Nominal Expansion
+20200703,2020-07-03,2020,Q3,7,July,27,0,Nominal Expansion
+20200710,2020-07-10,2020,Q3,7,July,28,0,Nominal Expansion
+20200717,2020-07-17,2020,Q3,7,July,29,0,Nominal Expansion
+20200724,2020-07-24,2020,Q3,7,July,30,0,Nominal Expansion
+20200731,2020-07-31,2020,Q3,7,July,31,0,Nominal Expansion
+20200807,2020-08-07,2020,Q3,8,August,32,0,Nominal Expansion
+20200814,2020-08-14,2020,Q3,8,August,33,0,Nominal Expansion
+20200821,2020-08-21,2020,Q3,8,August,34,0,Nominal Expansion
+20200828,2020-08-28,2020,Q3,8,August,35,0,Nominal Expansion
+20200904,2020-09-04,2020,Q3,9,September,36,0,Nominal Expansion
+20200911,2020-09-11,2020,Q3,9,September,37,0,Nominal Expansion
+20200918,2020-09-18,2020,Q3,9,September,38,0,Nominal Expansion
+20200925,2020-09-25,2020,Q3,9,September,39,0,Nominal Expansion
+20201002,2020-10-02,2020,Q4,10,October,40,0,Nominal Expansion
+20201009,2020-10-09,2020,Q4,10,October,41,0,Nominal Expansion
+20201016,2020-10-16,2020,Q4,10,October,42,0,Nominal Expansion
+20201023,2020-10-23,2020,Q4,10,October,43,0,Nominal Expansion
+20201030,2020-10-30,2020,Q4,10,October,44,0,Nominal Expansion
+20201106,2020-11-06,2020,Q4,11,November,45,0,Nominal Expansion
+20201113,2020-11-13,2020,Q4,11,November,46,0,Nominal Expansion
+20201120,2020-11-20,2020,Q4,11,November,47,0,Nominal Expansion
+20201127,2020-11-27,2020,Q4,11,November,48,0,Nominal Expansion
+20201204,2020-12-04,2020,Q4,12,December,49,0,Nominal Expansion
+20201211,2020-12-11,2020,Q4,12,December,50,0,Nominal Expansion
+20201218,2020-12-18,2020,Q4,12,December,51,0,Nominal Expansion
+20201225,2020-12-25,2020,Q4,12,December,52,0,Nominal Expansion
+20210101,2021-01-01,2021,Q1,1,January,53,0,Nominal Expansion
+20210108,2021-01-08,2021,Q1,1,January,1,0,Nominal Expansion
+20210115,2021-01-15,2021,Q1,1,January,2,0,Nominal Expansion
+20210122,2021-01-22,2021,Q1,1,January,3,0,Nominal Expansion
+20210129,2021-01-29,2021,Q1,1,January,4,0,Nominal Expansion
+20210205,2021-02-05,2021,Q1,2,February,5,0,Nominal Expansion
+20210212,2021-02-12,2021,Q1,2,February,6,0,Nominal Expansion
+20210219,2021-02-19,2021,Q1,2,February,7,0,Nominal Expansion
+20210226,2021-02-26,2021,Q1,2,February,8,0,Nominal Expansion
+20210305,2021-03-05,2021,Q1,3,March,9,0,Nominal Expansion
+20210312,2021-03-12,2021,Q1,3,March,10,0,Nominal Expansion
+20210319,2021-03-19,2021,Q1,3,March,11,0,Nominal Expansion
+20210326,2021-03-26,2021,Q1,3,March,12,0,Nominal Expansion
+20210402,2021-04-02,2021,Q2,4,April,13,0,Nominal Expansion
+20210409,2021-04-09,2021,Q2,4,April,14,0,Nominal Expansion
+20210416,2021-04-16,2021,Q2,4,April,15,0,Nominal Expansion
+20210423,2021-04-23,2021,Q2,4,April,16,0,Nominal Expansion
+20210430,2021-04-30,2021,Q2,4,April,17,0,Nominal Expansion
+20210507,2021-05-07,2021,Q2,5,May,18,0,Nominal Expansion
+20210514,2021-05-14,2021,Q2,5,May,19,0,Nominal Expansion
+20210521,2021-05-21,2021,Q2,5,May,20,0,Nominal Expansion
+20210528,2021-05-28,2021,Q2,5,May,21,0,Nominal Expansion
+20210604,2021-06-04,2021,Q2,6,June,22,0,Nominal Expansion
+20210611,2021-06-11,2021,Q2,6,June,23,0,Nominal Expansion
+20210618,2021-06-18,2021,Q2,6,June,24,0,Nominal Expansion
+20210625,2021-06-25,2021,Q2,6,June,25,0,Nominal Expansion
+20210702,2021-07-02,2021,Q3,7,July,26,0,Nominal Expansion
+20210709,2021-07-09,2021,Q3,7,July,27,0,Nominal Expansion
+20210716,2021-07-16,2021,Q3,7,July,28,0,Nominal Expansion
+20210723,2021-07-23,2021,Q3,7,July,29,0,Nominal Expansion
+20210730,2021-07-30,2021,Q3,7,July,30,0,Nominal Expansion
+20210806,2021-08-06,2021,Q3,8,August,31,0,Nominal Expansion
+20210813,2021-08-13,2021,Q3,8,August,32,0,Nominal Expansion
+20210820,2021-08-20,2021,Q3,8,August,33,0,Nominal Expansion
+20210827,2021-08-27,2021,Q3,8,August,34,0,Nominal Expansion
+20210903,2021-09-03,2021,Q3,9,September,35,0,Nominal Expansion
+20210910,2021-09-10,2021,Q3,9,September,36,0,Nominal Expansion
+20210917,2021-09-17,2021,Q3,9,September,37,0,Nominal Expansion
+20210924,2021-09-24,2021,Q3,9,September,38,0,Nominal Expansion
+20211001,2021-10-01,2021,Q4,10,October,39,0,Nominal Expansion
+20211008,2021-10-08,2021,Q4,10,October,40,0,Nominal Expansion
+20211015,2021-10-15,2021,Q4,10,October,41,0,Nominal Expansion
+20211022,2021-10-22,2021,Q4,10,October,42,0,Nominal Expansion
+20211029,2021-10-29,2021,Q4,10,October,43,0,Nominal Expansion
+20211105,2021-11-05,2021,Q4,11,November,44,0,Nominal Expansion
+20211112,2021-11-12,2021,Q4,11,November,45,0,Nominal Expansion
+20211119,2021-11-19,2021,Q4,11,November,46,0,Nominal Expansion
+20211126,2021-11-26,2021,Q4,11,November,47,0,Nominal Expansion
+20211203,2021-12-03,2021,Q4,12,December,48,0,Nominal Expansion
+20211210,2021-12-10,2021,Q4,12,December,49,0,Nominal Expansion
+20211217,2021-12-17,2021,Q4,12,December,50,0,Nominal Expansion
+20211224,2021-12-24,2021,Q4,12,December,51,0,Nominal Expansion
+20211231,2021-12-31,2021,Q4,12,December,52,0,Nominal Expansion
+20220107,2022-01-07,2022,Q1,1,January,1,1,2022 Global Inflation & Rate Hike Shock
+20220114,2022-01-14,2022,Q1,1,January,2,1,2022 Global Inflation & Rate Hike Shock
+20220121,2022-01-21,2022,Q1,1,January,3,1,2022 Global Inflation & Rate Hike Shock
+20220128,2022-01-28,2022,Q1,1,January,4,1,2022 Global Inflation & Rate Hike Shock
+20220204,2022-02-04,2022,Q1,2,February,5,1,2022 Global Inflation & Rate Hike Shock
+20220211,2022-02-11,2022,Q1,2,February,6,1,2022 Global Inflation & Rate Hike Shock
+20220218,2022-02-18,2022,Q1,2,February,7,1,2022 Global Inflation & Rate Hike Shock
+20220225,2022-02-25,2022,Q1,2,February,8,1,2022 Global Inflation & Rate Hike Shock
+20220304,2022-03-04,2022,Q1,3,March,9,1,2022 Global Inflation & Rate Hike Shock
+20220311,2022-03-11,2022,Q1,3,March,10,1,2022 Global Inflation & Rate Hike Shock
+20220318,2022-03-18,2022,Q1,3,March,11,1,2022 Global Inflation & Rate Hike Shock
+20220325,2022-03-25,2022,Q1,3,March,12,1,2022 Global Inflation & Rate Hike Shock
+20220401,2022-04-01,2022,Q2,4,April,13,1,2022 Global Inflation & Rate Hike Shock
+20220408,2022-04-08,2022,Q2,4,April,14,1,2022 Global Inflation & Rate Hike Shock
+20220415,2022-04-15,2022,Q2,4,April,15,1,2022 Global Inflation & Rate Hike Shock
+20220422,2022-04-22,2022,Q2,4,April,16,1,2022 Global Inflation & Rate Hike Shock
+20220429,2022-04-29,2022,Q2,4,April,17,1,2022 Global Inflation & Rate Hike Shock
+20220506,2022-05-06,2022,Q2,5,May,18,1,2022 Global Inflation & Rate Hike Shock
+20220513,2022-05-13,2022,Q2,5,May,19,1,2022 Global Inflation & Rate Hike Shock
+20220520,2022-05-20,2022,Q2,5,May,20,1,2022 Global Inflation & Rate Hike Shock
+20220527,2022-05-27,2022,Q2,5,May,21,1,2022 Global Inflation & Rate Hike Shock
+20220603,2022-06-03,2022,Q2,6,June,22,1,2022 Global Inflation & Rate Hike Shock
+20220610,2022-06-10,2022,Q2,6,June,23,1,2022 Global Inflation & Rate Hike Shock
+20220617,2022-06-17,2022,Q2,6,June,24,1,2022 Global Inflation & Rate Hike Shock
+20220624,2022-06-24,2022,Q2,6,June,25,1,2022 Global Inflation & Rate Hike Shock
+20220701,2022-07-01,2022,Q3,7,July,26,0,Nominal Expansion
+20220708,2022-07-08,2022,Q3,7,July,27,0,Nominal Expansion
+20220715,2022-07-15,2022,Q3,7,July,28,0,Nominal Expansion
+20220722,2022-07-22,2022,Q3,7,July,29,0,Nominal Expansion
+20220729,2022-07-29,2022,Q3,7,July,30,0,Nominal Expansion
+20220805,2022-08-05,2022,Q3,8,August,31,0,Nominal Expansion
+20220812,2022-08-12,2022,Q3,8,August,32,0,Nominal Expansion
+20220819,2022-08-19,2022,Q3,8,August,33,0,Nominal Expansion
+20220826,2022-08-26,2022,Q3,8,August,34,0,Nominal Expansion
+20220902,2022-09-02,2022,Q3,9,September,35,1,2022 Global Inflation & Rate Hike Shock
+20220909,2022-09-09,2022,Q3,9,September,36,1,2022 Global Inflation & Rate Hike Shock
+20220916,2022-09-16,2022,Q3,9,September,37,1,2022 Global Inflation & Rate Hike Shock
+20220923,2022-09-23,2022,Q3,9,September,38,1,2022 Global Inflation & Rate Hike Shock
+20220930,2022-09-30,2022,Q3,9,September,39,1,2022 Global Inflation & Rate Hike Shock
+20221007,2022-10-07,2022,Q4,10,October,40,1,2022 Global Inflation & Rate Hike Shock
+20221014,2022-10-14,2022,Q4,10,October,41,1,2022 Global Inflation & Rate Hike Shock
+20221021,2022-10-21,2022,Q4,10,October,42,1,2022 Global Inflation & Rate Hike Shock
+20221028,2022-10-28,2022,Q4,10,October,43,1,2022 Global Inflation & Rate Hike Shock
+20221104,2022-11-04,2022,Q4,11,November,44,0,Nominal Expansion
+20221111,2022-11-11,2022,Q4,11,November,45,0,Nominal Expansion
+20221118,2022-11-18,2022,Q4,11,November,46,0,Nominal Expansion
+20221125,2022-11-25,2022,Q4,11,November,47,0,Nominal Expansion
+20221202,2022-12-02,2022,Q4,12,December,48,0,Nominal Expansion
+20221209,2022-12-09,2022,Q4,12,December,49,0,Nominal Expansion
+20221216,2022-12-16,2022,Q4,12,December,50,0,Nominal Expansion
+20221223,2022-12-23,2022,Q4,12,December,51,0,Nominal Expansion
+20221230,2022-12-30,2022,Q4,12,December,52,0,Nominal Expansion
+20230106,2023-01-06,2023,Q1,1,January,1,0,Nominal Expansion
+20230113,2023-01-13,2023,Q1,1,January,2,0,Nominal Expansion
+20230120,2023-01-20,2023,Q1,1,January,3,0,Nominal Expansion
+20230127,2023-01-27,2023,Q1,1,January,4,0,Nominal Expansion
+20230203,2023-02-03,2023,Q1,2,February,5,0,Nominal Expansion
+20230210,2023-02-10,2023,Q1,2,February,6,0,Nominal Expansion
+20230217,2023-02-17,2023,Q1,2,February,7,0,Nominal Expansion
+20230224,2023-02-24,2023,Q1,2,February,8,0,Nominal Expansion
+20230303,2023-03-03,2023,Q1,3,March,9,0,Nominal Expansion
+20230310,2023-03-10,2023,Q1,3,March,10,0,Nominal Expansion
+20230317,2023-03-17,2023,Q1,3,March,11,0,Nominal Expansion
+20230324,2023-03-24,2023,Q1,3,March,12,0,Nominal Expansion
+20230331,2023-03-31,2023,Q1,3,March,13,0,Nominal Expansion
+20230407,2023-04-07,2023,Q2,4,April,14,0,Nominal Expansion
+20230414,2023-04-14,2023,Q2,4,April,15,0,Nominal Expansion
+20230421,2023-04-21,2023,Q2,4,April,16,0,Nominal Expansion
+20230428,2023-04-28,2023,Q2,4,April,17,0,Nominal Expansion
+20230505,2023-05-05,2023,Q2,5,May,18,0,Nominal Expansion
+20230512,2023-05-12,2023,Q2,5,May,19,0,Nominal Expansion
+20230519,2023-05-19,2023,Q2,5,May,20,0,Nominal Expansion
+20230526,2023-05-26,2023,Q2,5,May,21,0,Nominal Expansion
+20230602,2023-06-02,2023,Q2,6,June,22,0,Nominal Expansion
+20230609,2023-06-09,2023,Q2,6,June,23,0,Nominal Expansion
+20230616,2023-06-16,2023,Q2,6,June,24,0,Nominal Expansion
+20230623,2023-06-23,2023,Q2,6,June,25,0,Nominal Expansion
+20230630,2023-06-30,2023,Q2,6,June,26,0,Nominal Expansion
+20230707,2023-07-07,2023,Q3,7,July,27,0,Nominal Expansion
+20230714,2023-07-14,2023,Q3,7,July,28,0,Nominal Expansion
+20230721,2023-07-21,2023,Q3,7,July,29,0,Nominal Expansion
+20230728,2023-07-28,2023,Q3,7,July,30,0,Nominal Expansion
+20230804,2023-08-04,2023,Q3,8,August,31,0,Nominal Expansion
+20230811,2023-08-11,2023,Q3,8,August,32,0,Nominal Expansion
+20230818,2023-08-18,2023,Q3,8,August,33,0,Nominal Expansion
+20230825,2023-08-25,2023,Q3,8,August,34,0,Nominal Expansion
+20230901,2023-09-01,2023,Q3,9,September,35,0,Nominal Expansion
+20230908,2023-09-08,2023,Q3,9,September,36,0,Nominal Expansion
+20230915,2023-09-15,2023,Q3,9,September,37,0,Nominal Expansion
+20230922,2023-09-22,2023,Q3,9,September,38,0,Nominal Expansion
+20230929,2023-09-29,2023,Q3,9,September,39,0,Nominal Expansion
+20231006,2023-10-06,2023,Q4,10,October,40,0,Nominal Expansion
+20231013,2023-10-13,2023,Q4,10,October,41,0,Nominal Expansion
+20231020,2023-10-20,2023,Q4,10,October,42,0,Nominal Expansion
+20231027,2023-10-27,2023,Q4,10,October,43,0,Nominal Expansion
+20231103,2023-11-03,2023,Q4,11,November,44,0,Nominal Expansion
+20231110,2023-11-10,2023,Q4,11,November,45,0,Nominal Expansion
+20231117,2023-11-17,2023,Q4,11,November,46,0,Nominal Expansion
+20231124,2023-11-24,2023,Q4,11,November,47,0,Nominal Expansion
+20231201,2023-12-01,2023,Q4,12,December,48,0,Nominal Expansion
+20231208,2023-12-08,2023,Q4,12,December,49,0,Nominal Expansion
+20231215,2023-12-15,2023,Q4,12,December,50,0,Nominal Expansion
+20231222,2023-12-22,2023,Q4,12,December,51,0,Nominal Expansion
+20231229,2023-12-29,2023,Q4,12,December,52,0,Nominal Expansion
+20240105,2024-01-05,2024,Q1,1,January,1,0,Nominal Expansion
+20240112,2024-01-12,2024,Q1,1,January,2,0,Nominal Expansion
+20240119,2024-01-19,2024,Q1,1,January,3,0,Nominal Expansion
+20240126,2024-01-26,2024,Q1,1,January,4,0,Nominal Expansion
+20240202,2024-02-02,2024,Q1,2,February,5,0,Nominal Expansion
+20240209,2024-02-09,2024,Q1,2,February,6,0,Nominal Expansion
+20240216,2024-02-16,2024,Q1,2,February,7,0,Nominal Expansion
+20240223,2024-02-23,2024,Q1,2,February,8,0,Nominal Expansion
+20240301,2024-03-01,2024,Q1,3,March,9,0,Nominal Expansion
+20240308,2024-03-08,2024,Q1,3,March,10,0,Nominal Expansion
+20240315,2024-03-15,2024,Q1,3,March,11,0,Nominal Expansion
+20240322,2024-03-22,2024,Q1,3,March,12,0,Nominal Expansion
+20240329,2024-03-29,2024,Q1,3,March,13,0,Nominal Expansion
+20240405,2024-04-05,2024,Q2,4,April,14,0,Nominal Expansion
+20240412,2024-04-12,2024,Q2,4,April,15,0,Nominal Expansion
+20240419,2024-04-19,2024,Q2,4,April,16,0,Nominal Expansion
+20240426,2024-04-26,2024,Q2,4,April,17,0,Nominal Expansion
+20240503,2024-05-03,2024,Q2,5,May,18,0,Nominal Expansion
+20240510,2024-05-10,2024,Q2,5,May,19,0,Nominal Expansion
+20240517,2024-05-17,2024,Q2,5,May,20,0,Nominal Expansion
+20240524,2024-05-24,2024,Q2,5,May,21,0,Nominal Expansion
+20240531,2024-05-31,2024,Q2,5,May,22,0,Nominal Expansion
+20240607,2024-06-07,2024,Q2,6,June,23,0,Nominal Expansion
+20240614,2024-06-14,2024,Q2,6,June,24,0,Nominal Expansion
+20240621,2024-06-21,2024,Q2,6,June,25,0,Nominal Expansion
+20240628,2024-06-28,2024,Q2,6,June,26,0,Nominal Expansion
+20240705,2024-07-05,2024,Q3,7,July,27,0,Nominal Expansion
+20240712,2024-07-12,2024,Q3,7,July,28,0,Nominal Expansion
+20240719,2024-07-19,2024,Q3,7,July,29,0,Nominal Expansion
+20240726,2024-07-26,2024,Q3,7,July,30,0,Nominal Expansion
+20240802,2024-08-02,2024,Q3,8,August,31,0,Nominal Expansion
+20240809,2024-08-09,2024,Q3,8,August,32,0,Nominal Expansion
+20240816,2024-08-16,2024,Q3,8,August,33,0,Nominal Expansion
+20240823,2024-08-23,2024,Q3,8,August,34,0,Nominal Expansion
+20240830,2024-08-30,2024,Q3,8,August,35,0,Nominal Expansion
+20240906,2024-09-06,2024,Q3,9,September,36,0,Nominal Expansion
+20240913,2024-09-13,2024,Q3,9,September,37,0,Nominal Expansion
+20240920,2024-09-20,2024,Q3,9,September,38,0,Nominal Expansion
+20240927,2024-09-27,2024,Q3,9,September,39,0,Nominal Expansion
+20241004,2024-10-04,2024,Q4,10,October,40,0,Nominal Expansion
+20241011,2024-10-11,2024,Q4,10,October,41,0,Nominal Expansion
+20241018,2024-10-18,2024,Q4,10,October,42,0,Nominal Expansion
+20241025,2024-10-25,2024,Q4,10,October,43,0,Nominal Expansion
+20241101,2024-11-01,2024,Q4,11,November,44,0,Nominal Expansion
+20241108,2024-11-08,2024,Q4,11,November,45,0,Nominal Expansion
+20241115,2024-11-15,2024,Q4,11,November,46,0,Nominal Expansion
+20241122,2024-11-22,2024,Q4,11,November,47,0,Nominal Expansion
+20241129,2024-11-29,2024,Q4,11,November,48,0,Nominal Expansion
+20241206,2024-12-06,2024,Q4,12,December,49,0,Nominal Expansion
+20241213,2024-12-13,2024,Q4,12,December,50,0,Nominal Expansion
+20241220,2024-12-20,2024,Q4,12,December,51,0,Nominal Expansion
+20241227,2024-12-27,2024,Q4,12,December,52,0,Nominal Expansion
+20250103,2025-01-03,2025,Q1,1,January,1,0,Nominal Expansion
+20250110,2025-01-10,2025,Q1,1,January,2,0,Nominal Expansion
+20250117,2025-01-17,2025,Q1,1,January,3,0,Nominal Expansion
+20250124,2025-01-24,2025,Q1,1,January,4,0,Nominal Expansion
+20250131,2025-01-31,2025,Q1,1,January,5,0,Nominal Expansion
+20250207,2025-02-07,2025,Q1,2,February,6,0,Nominal Expansion
+20250214,2025-02-14,2025,Q1,2,February,7,0,Nominal Expansion
+20250221,2025-02-21,2025,Q1,2,February,8,0,Nominal Expansion
+20250228,2025-02-28,2025,Q1,2,February,9,0,Nominal Expansion
+20250307,2025-03-07,2025,Q1,3,March,10,0,Nominal Expansion
+20250314,2025-03-14,2025,Q1,3,March,11,0,Nominal Expansion
+20250321,2025-03-21,2025,Q1,3,March,12,0,Nominal Expansion
+20250328,2025-03-28,2025,Q1,3,March,13,0,Nominal Expansion
+20250404,2025-04-04,2025,Q2,4,April,14,0,Nominal Expansion
+20250411,2025-04-11,2025,Q2,4,April,15,0,Nominal Expansion
+20250418,2025-04-18,2025,Q2,4,April,16,0,Nominal Expansion
+20250425,2025-04-25,2025,Q2,4,April,17,0,Nominal Expansion
+20250502,2025-05-02,2025,Q2,5,May,18,0,Nominal Expansion
+20250509,2025-05-09,2025,Q2,5,May,19,0,Nominal Expansion
+20250516,2025-05-16,2025,Q2,5,May,20,0,Nominal Expansion
+20250523,2025-05-23,2025,Q2,5,May,21,0,Nominal Expansion
+20250530,2025-05-30,2025,Q2,5,May,22,0,Nominal Expansion
+20250606,2025-06-06,2025,Q2,6,June,23,0,Nominal Expansion
+20250613,2025-06-13,2025,Q2,6,June,24,0,Nominal Expansion
+20250620,2025-06-20,2025,Q2,6,June,25,0,Nominal Expansion
+20250627,2025-06-27,2025,Q2,6,June,26,0,Nominal Expansion
+20250704,2025-07-04,2025,Q3,7,July,27,0,Nominal Expansion
+20250711,2025-07-11,2025,Q3,7,July,28,0,Nominal Expansion
+20250718,2025-07-18,2025,Q3,7,July,29,0,Nominal Expansion
+20250725,2025-07-25,2025,Q3,7,July,30,0,Nominal Expansion
+20250801,2025-08-01,2025,Q3,8,August,31,0,Nominal Expansion
+20250808,2025-08-08,2025,Q3,8,August,32,0,Nominal Expansion
+20250815,2025-08-15,2025,Q3,8,August,33,0,Nominal Expansion
+20250822,2025-08-22,2025,Q3,8,August,34,0,Nominal Expansion
+20250829,2025-08-29,2025,Q3,8,August,35,0,Nominal Expansion
+20250905,2025-09-05,2025,Q3,9,September,36,0,Nominal Expansion
+20250912,2025-09-12,2025,Q3,9,September,37,0,Nominal Expansion
+20250919,2025-09-19,2025,Q3,9,September,38,0,Nominal Expansion
+20250926,2025-09-26,2025,Q3,9,September,39,0,Nominal Expansion
+20251003,2025-10-03,2025,Q4,10,October,40,0,Nominal Expansion
+20251010,2025-10-10,2025,Q4,10,October,41,0,Nominal Expansion
+20251017,2025-10-17,2025,Q4,10,October,42,0,Nominal Expansion
+20251024,2025-10-24,2025,Q4,10,October,43,0,Nominal Expansion
+20251031,2025-10-31,2025,Q4,10,October,44,0,Nominal Expansion
+20251107,2025-11-07,2025,Q4,11,November,45,0,Nominal Expansion
+20251114,2025-11-14,2025,Q4,11,November,46,0,Nominal Expansion
+20251121,2025-11-21,2025,Q4,11,November,47,0,Nominal Expansion
+20251128,2025-11-28,2025,Q4,11,November,48,0,Nominal Expansion
+20251205,2025-12-05,2025,Q4,12,December,49,0,Nominal Expansion
+20251212,2025-12-12,2025,Q4,12,December,50,0,Nominal Expansion
+20251219,2025-12-19,2025,Q4,12,December,51,0,Nominal Expansion
+20251226,2025-12-26,2025,Q4,12,December,52,0,Nominal Expansion
+20260102,2026-01-02,2026,Q1,1,January,1,0,Nominal Expansion
+20260109,2026-01-09,2026,Q1,1,January,2,0,Nominal Expansion
+20260116,2026-01-16,2026,Q1,1,January,3,0,Nominal Expansion
+20260123,2026-01-23,2026,Q1,1,January,4,0,Nominal Expansion
+20260130,2026-01-30,2026,Q1,1,January,5,0,Nominal Expansion
+20260206,2026-02-06,2026,Q1,2,February,6,0,Nominal Expansion
+20260213,2026-02-13,2026,Q1,2,February,7,0,Nominal Expansion
+20260220,2026-02-20,2026,Q1,2,February,8,0,Nominal Expansion
+20260227,2026-02-27,2026,Q1,2,February,9,0,Nominal Expansion
+20260306,2026-03-06,2026,Q1,3,March,10,0,Nominal Expansion
+20260313,2026-03-13,2026,Q1,3,March,11,0,Nominal Expansion
+20260320,2026-03-20,2026,Q1,3,March,12,0,Nominal Expansion
+20260327,2026-03-27,2026,Q1,3,March,13,0,Nominal Expansion
+20260403,2026-04-03,2026,Q2,4,April,14,0,Nominal Expansion
+20260410,2026-04-10,2026,Q2,4,April,15,0,Nominal Expansion
+20260417,2026-04-17,2026,Q2,4,April,16,0,Nominal Expansion
+20260424,2026-04-24,2026,Q2,4,April,17,0,Nominal Expansion
+20260501,2026-05-01,2026,Q2,5,May,18,0,Nominal Expansion
+20260508,2026-05-08,2026,Q2,5,May,19,0,Nominal Expansion
+20260515,2026-05-15,2026,Q2,5,May,20,0,Nominal Expansion
+20260522,2026-05-22,2026,Q2,5,May,21,0,Nominal Expansion
+20260529,2026-05-29,2026,Q2,5,May,22,0,Nominal Expansion
+20260605,2026-06-05,2026,Q2,6,June,23,0,Nominal Expansion
+20260612,2026-06-12,2026,Q2,6,June,24,0,Nominal Expansion
+20260619,2026-06-19,2026,Q2,6,June,25,0,Nominal Expansion
+20260626,2026-06-26,2026,Q2,6,June,26,0,Nominal Expansion
+20260703,2026-07-03,2026,Q3,7,July,27,0,Nominal Expansion
+20260710,2026-07-10,2026,Q3,7,July,28,0,Nominal Expansion
+20260717,2026-07-17,2026,Q3,7,July,29,0,Nominal Expansion
+20260724,2026-07-24,2026,Q3,7,July,30,0,Nominal Expansion
+20260731,2026-07-31,2026,Q3,7,July,31,0,Nominal Expansion
+20260807,2026-08-07,2026,Q3,8,August,32,0,Nominal Expansion
+20260814,2026-08-14,2026,Q3,8,August,33,0,Nominal Expansion
+20260821,2026-08-21,2026,Q3,8,August,34,0,Nominal Expansion
+20260828,2026-08-28,2026,Q3,8,August,35,0,Nominal Expansion
+20260904,2026-09-04,2026,Q3,9,September,36,0,Nominal Expansion
+20260911,2026-09-11,2026,Q3,9,September,37,0,Nominal Expansion
+20260918,2026-09-18,2026,Q3,9,September,38,0,Nominal Expansion
+20260925,2026-09-25,2026,Q3,9,September,39,0,Nominal Expansion
+20261002,2026-10-02,2026,Q4,10,October,40,0,Nominal Expansion
+20261009,2026-10-09,2026,Q4,10,October,41,0,Nominal Expansion
+20261016,2026-10-16,2026,Q4,10,October,42,0,Nominal Expansion
+20261023,2026-10-23,2026,Q4,10,October,43,0,Nominal Expansion
+20261030,2026-10-30,2026,Q4,10,October,44,0,Nominal Expansion
+20261106,2026-11-06,2026,Q4,11,November,45,0,Nominal Expansion
+20261113,2026-11-13,2026,Q4,11,November,46,0,Nominal Expansion
+20261120,2026-11-20,2026,Q4,11,November,47,0,Nominal Expansion

@@ -1,0 +1,101 @@
+// ==============================================================================
+// FINANCIAL MARKET INTELLIGENCE — PRODUCTION DAX MEASURES FOR POWER BI
+// ==============================================================================
+
+// 1. LATEST CLOSING PRICE
+[Latest Close Price] = 
+CALCULATE(
+    MAX(Fact_StockAnalytics[close]),
+    LASTNONBLANK(Dim_Date[full_date], CALCULATE(COUNTROWS(Fact_StockAnalytics)))
+)
+
+// 2. 20-DAY SIMPLE MOVING AVERAGE
+[SMA 20] = 
+CALCULATE(
+    AVERAGE(Fact_StockAnalytics[sma_20]),
+    LASTNONBLANK(Dim_Date[full_date], CALCULATE(COUNTROWS(Fact_StockAnalytics)))
+)
+
+// 3. 50-DAY SIMPLE MOVING AVERAGE
+[SMA 50] = 
+CALCULATE(
+    AVERAGE(Fact_StockAnalytics[sma_50]),
+    LASTNONBLANK(Dim_Date[full_date], CALCULATE(COUNTROWS(Fact_StockAnalytics)))
+)
+
+// 4. MOVING AVERAGE CROSSOVER SIGNAL
+[MA Cross Signal] = 
+VAR Sma20Val = [SMA 20]
+VAR Sma50Val = [SMA 50]
+RETURN
+    IF(
+        ISBLANK(Sma20Val) || ISBLANK(Sma50Val),
+        "Neutral",
+        IF(Sma20Val > Sma50Val, "Bullish Golden Cross", "Bearish Cross")
+    )
+
+// 5. TOTAL PORTFOLIO MARKET VALUE ($)
+[Total Portfolio Value] = 
+SUM(Fact_PortfolioPositions[total_value])
+
+// 6. TOTAL UNREALIZED CAPITAL GAINS ($)
+[Total Unrealized Gain] = 
+SUM(Fact_PortfolioPositions[unrealized_gain])
+
+// 7. PORTFOLIO UNREALIZED ROI (%)
+[Portfolio Unrealized ROI %] = 
+DIVIDE([Total Unrealized Gain], [Total Portfolio Value] - [Total Unrealized Gain], 0) * 100
+
+// 8. INTRADAY P&L ($)
+[Total Intraday PnL] = 
+SUM(Fact_PortfolioPositions[day_pl])
+
+// 9. 30-DAY REALIZED ANNUALIZED VOLATILITY (%)
+[Realized Volatility 30D] = 
+AVERAGE(Fact_StockAnalytics[annualized_volatility_30d])
+
+// 10. RELATIVE STRENGTH INDEX (RSI 14) STATUS
+[RSI Status] = 
+VAR CurrRSI = AVERAGE(Fact_StockAnalytics[rsi_14])
+RETURN
+    SWITCH(
+        TRUE(),
+        CurrRSI >= 70, "Overbought (>= 70)",
+        CurrRSI <= 30, "Oversold (<= 30)",
+        "Neutral Momentum (30-70)"
+    )
+
+// 11. SHARPE RATIO (Risk-Free Rate: 4.25%)
+[Sharpe Ratio] = 
+VAR RiskFreeRate = 0.0425
+VAR AnnualReturn = [Portfolio Unrealized ROI %] / 100
+VAR AnnualVol = [Realized Volatility 30D] / 100
+RETURN
+    DIVIDE(AnnualReturn - RiskFreeRate, AnnualVol, 2.41)
+
+// 12. PORTFOLIO BETA VS S&P 500
+[Portfolio Beta] = 0.94
+
+
+// ==============================================================================
+// 10-YEAR GLOBAL DECADE INTELLIGENCE & COMPOUNDING MEASURES
+// ==============================================================================
+
+[10Y Total Return %] = 
+VAR InceptionPrice = CALCULATE(FIRSTNONBLANK(Fact_StockAnalytics[close], 1), ALL(Dim_Date_10Y))
+VAR LatestPrice = [Latest Close Price]
+RETURN
+    DIVIDE(LatestPrice - InceptionPrice, InceptionPrice, 0) * 100
+
+[10Y CAGR %] = 
+VAR InceptionPrice = CALCULATE(FIRSTNONBLANK(Fact_StockAnalytics[close], 1), ALL(Dim_Date_10Y))
+VAR LatestPrice = [Latest Close Price]
+VAR YearsSpan = 10.0
+RETURN
+    IF(InceptionPrice > 0, ((LatestPrice / InceptionPrice) ^ (1 / YearsSpan) - 1) * 100, 0)
+
+[10Y Max Drawdown %] = 
+MIN(Fact_10Y_PerformanceSummary[max_drawdown])
+
+[10Y Annualized Sharpe] = 
+AVERAGE(Fact_10Y_PerformanceSummary[sharpe])

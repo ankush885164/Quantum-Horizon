@@ -1,0 +1,28 @@
+symbol,company_name,sector,market_code,region,market_cap_b,currency,ten_year_cagr,max_drawdown,ten_year_return,sharpe
+NVDA,NVIDIA Corporation,Semiconductors & AI,US,North America,3420.0,USD,49.1,-66.4,5326.0,1.48
+AAPL,Apple Inc.,Technology & Hardware,US,North America,3520.0,USD,24.8,-38.5,818.0,1.15
+MSFT,Microsoft Corporation,Software & Cloud,US,North America,3150.0,USD,26.2,-37.1,925.0,1.22
+AMZN,Amazon.com Inc.,Consumer Discretionary,US,North America,2210.0,USD,25.1,-56.2,840.0,0.98
+GOOGL,Alphabet Inc.,Communication Services,US,North America,2180.0,USD,20.4,-44.6,540.0,1.05
+TSLA,Tesla Inc.,Automotive & Energy,US,North America,1120.0,USD,42.5,-73.6,3120.0,0.88
+JPM,JPMorgan Chase & Co.,Financial Services,US,North America,690.0,USD,16.8,-43.6,372.0,0.82
+RELIANCE.NS,Reliance Industries Ltd,Energy & Conglomerate,NSE,Asia-Pacific,220.0,INR,20.3,-44.2,535.6,0.95
+TCS.NS,Tata Consultancy Services,Information Technology,NSE,Asia-Pacific,175.0,INR,17.5,-30.5,402.0,1.02
+HDFCBANK.NS,HDFC Bank Ltd,Financial Services,NSE,Asia-Pacific,162.0,INR,16.2,-38.2,350.0,0.89
+INFY.NS,Infosys Ltd,Information Technology,NSE,Asia-Pacific,88.0,INR,16.9,-36.8,378.0,0.92
+ICICIBANK.NS,ICICI Bank Ltd,Financial Services,NSE,Asia-Pacific,110.0,INR,18.9,-46.5,465.0,0.88
+BHARTIARTL.NS,Bharti Airtel Ltd,Telecommunications,NSE,Asia-Pacific,125.0,INR,19.4,-42.0,488.0,0.91
+ASML,ASML Holding NV,Semiconductors (Lithography),EUR,Europe,380.0,EUR,29.6,-54.2,1236.8,1.12
+SAP.DE,SAP SE,Enterprise Software,EUR,Europe,280.0,EUR,15.8,-48.5,334.0,0.78
+MC.PA,LVMH Moët Hennessy,Luxury Goods & Consumer,EUR,Europe,360.0,EUR,18.2,-41.0,432.0,0.86
+SHEL.L,Shell plc,Energy & Oil,EUR,Europe,210.0,GBP,8.4,-64.5,124.0,0.45
+TSM,Taiwan Semiconductor Mfg,Semiconductor Foundry,APAC,Asia-Pacific,980.0,USD,28.5,-58.2,1135.0,1.08
+005930.KS,Samsung Electronics,Memory & Electronics,APAC,Asia-Pacific,320.0,KRW,11.2,-44.0,189.0,0.58
+7203.T,Toyota Motor Corp,Automotive,APAC,Asia-Pacific,280.0,JPY,10.5,-35.2,171.0,0.62
+BHP.AX,BHP Group Ltd,Materials & Mining,APAC,Asia-Pacific,150.0,AUD,9.8,-58.0,155.0,0.52
+^GSPC,S&P 500 Index (Benchmark),Global Equity Benchmark,MACRO,Global Macro,48000.0,USD,12.1,-34.0,212.2,0.85
+^NSEI,NIFTY 50 Index (Benchmark),Indian Benchmark,MACRO,Global Macro,4200.0,INR,12.6,-38.4,228.4,0.82
+GC=F,Gold Commodity Futures,Precious Metals Safe Haven,MACRO,Global Macro,16000.0,USD,11.6,-21.5,198.4,0.86
+CL=F,Crude Oil (WTI),Energy Commodities,MACRO,Global Macro,2500.0,USD,3.8,-120.0,45.0,0.22
+BTC-USD,Bitcoin Core Treasury,Decentralized Digital Gold,CRYPTO,Global Digital,1880.0,USD,55.4,-84.0,8122.5,1.25
+ETH-USD,Ethereum Smart Contracts,Decentralized Computing,CRYPTO,Global Digital,380.0,USD,64.2,-94.0,14200.0,1.15

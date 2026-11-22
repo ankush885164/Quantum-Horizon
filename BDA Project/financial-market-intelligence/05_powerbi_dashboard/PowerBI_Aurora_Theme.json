@@ -1,0 +1,68 @@
+{
+  "name": "Quantum Horizon & Holographic Amethyst Theme",
+  "dataColors": [
+    "#818cf8",
+    "#00f0ff",
+    "#fbbf24",
+    "#ec4899",
+    "#10b981",
+    "#f43f5e",
+    "#c084fc",
+    "#38bdf8"
+  ],
+  "background": "#070913",
+  "foreground": "#0e142c",
+  "tableAccent": "#818cf8",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#0e142c" } },
+            "transparency": 10
+          }
+        ],
+        "border": [
+          {
+            "color": { "solid": { "color": "#1e294b" } },
+            "width": 1,
+            "radius": 10
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#000000" } },
+            "position": "Outer",
+            "preset": "BottomRight"
+          }
+        ],
+        "title": [
+          {
+            "fontColor": { "solid": { "color": "#f8fafc" } },
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 12
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#00f0ff" } },
+            "fontFamily": "JetBrains Mono",
+            "fontSize": 24
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#94a3b8" } },
+            "fontFamily": "Segoe UI",
+            "fontSize": 10
+          }
+        ]
+      }
+    }
+  }
+}

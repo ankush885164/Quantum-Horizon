@@ -1,0 +1,5 @@
+sector_key,sector_name,benchmark_weight,mandate_limit
+1,Energy,0.18,0.25
+2,Technology,0.42,0.5
+3,Financials,0.24,0.35
+4,Utilities,0.16,0.2
