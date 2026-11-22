@@ -1,128 +1,136 @@
 # ⚡ QUANTUM HORIZON
-### Financial Market Intelligence & AI Quantitative Investment Recommendation System
+### Financial Market Intelligence & Big Data Analytics
 
 <p align="center">
-  <strong>Transforming Big Data into Intelligent Investment Decisions</strong>
+  <strong>From market data engineering to interactive financial intelligence</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/invictussss/Quantum-Horizon"><img src="https://img.shields.io/badge/Repository-Quantum--Horizon-181717?logo=github" alt="GitHub repository"></a>
+  <img src="https://img.shields.io/badge/Architecture-Medallion%20Lakehouse-blue" alt="Medallion architecture">
+  <img src="https://img.shields.io/badge/Processing-Apache%20Spark-orange?logo=apachespark" alt="Apache Spark">
+  <img src="https://img.shields.io/badge/Platform-Databricks-red?logo=databricks" alt="Databricks">
+  <img src="https://img.shields.io/badge/BI-Power%20BI-yellow?logo=powerbi" alt="Power BI">
 </p>
 
 ---
 
 ## 📌 Project Overview
 
-**Quantum Horizon** is a Big Data Analytics and AI-powered financial market intelligence platform designed to analyze global financial markets, evaluate investment opportunities, and generate quantitative investment recommendations.
+**Quantum Horizon** is a financial market intelligence and Big Data analytics project. It brings together market-data extraction, distributed processing, structured analytics, quantitative indicators, and business-intelligence dashboards.
 
-The project combines distributed data processing using **Apache Spark and Databricks**, quantitative financial modeling using Python, and interactive business intelligence dashboards using Microsoft Power BI and Streamlit.
+The data-engineering workflow is organized around a **Bronze → Silver → Gold Medallion Architecture** using Python, Apache Spark / PySpark, Databricks, and Delta Lake. Curated outputs are prepared for analytical reporting and dashboard consumption.
 
-It processes historical market data across multiple asset classes and provides analytical insights through interactive visualizations, technical indicators, portfolio analytics, and AI-based investment scoring.
+The repository also contains quantitative analysis scripts, a market-trend notebook, dashboard assets, and Power BI-related work.
 
-## 🎯 Project Objectives
+## 📊 Dashboard Preview
 
-- Analyze financial market data across global markets.
-- Build a scalable Big Data processing pipeline.
-- Implement the Medallion Lakehouse Architecture.
-- Perform historical market analysis from 2015–2026.
-- Calculate financial indicators and risk metrics.
-- Develop an AI-based investment recommendation engine.
-- Create interactive dashboards for financial intelligence.
+The following screenshot shows the interactive Power BI market-intelligence dashboard.
 
-## 🏗️ System Architecture
+![Quantum Horizon Power BI Dashboard](assets/powerbi-dashboard.jpeg)
 
-The project follows a Medallion Lakehouse architecture.
+### Dashboard highlights
 
-**Data Ingestion → Apache Spark → Databricks → Medallion Architecture → Analytics → Dashboard**
+- Portfolio Net Asset Value (NAV) and daily P&L
+- Unrealized gain and cost basis
+- Sharpe ratio, beta, and realized volatility
+- Interactive price trajectory with moving averages and Bollinger Bands
+- Sector allocation breakdown
+- Institutional holdings matrix
+- Market, symbol, currency, and timeframe filters
 
-### 1. Bronze Layer – Raw Data
-- Ingest raw financial market datasets.
-- Collect multi-market asset information.
-- Store original records for further processing.
+## 🏗️ Data Engineering Architecture
 
-### 2. Silver Layer – Data Cleaning
-- Clean and transform financial datasets.
-- Handle missing and inconsistent values.
-- Calculate technical indicators.
-- Prepare structured analytical datasets.
+The documented pipeline follows this flow:
 
-### 3. Gold Layer – Business Analytics
-- Generate curated analytical datasets.
-- Build dimensional models and fact tables.
-- Prepare data for Power BI and investment analysis.
+```text
+Market Data Extraction
+        |
+        v
+Raw Landing / Ingestion
+        |
+        v
+BRONZE - Raw Delta Tables
+        |
+        v
+SILVER - Cleaned & Validated Data
+        |
+        v
+GOLD - Curated Analytics & Star Schema
+        |
+        v
+Power BI / Tableau Reporting
+```
 
-## 📊 Power BI Dashboard
+### Medallion layers
 
-The Power BI Quantum Canvas provides an interactive financial intelligence dashboard.
+| Layer | Purpose |
+|---|---|
+| **Bronze** | Ingest and preserve source data with ingestion metadata. |
+| **Silver** | Clean, validate, standardize, and deduplicate records. |
+| **Gold** | Calculate analytical metrics and prepare curated reporting tables. |
 
-![Power BI Dashboard](assets/powerbi-dashboard.png)
+For the detailed pipeline design, data dictionary, architecture diagram, and execution guide, see the [Financial Market Intelligence documentation](BDA%20Project/financial-market-intelligence/README.md).
 
-### Key Features
+## 📈 Analytics & Quantitative Features
 
-- Portfolio Net Asset Value (NAV)
-- Unrealized Net Gain
-- Sharpe Ratio and Beta
-- Realized Volatility
-- Interactive Stock Price Trajectory
-- SMA 20, SMA 50 and Bollinger Bands
-- Sector Allocation Breakdown
-- Institutional Holdings Matrix
-- Interactive Slicers and Cross-Filtering
-- Multi-Currency Analysis (USD, INR, EUR, GBP)
+The project documentation and scripts cover financial analysis such as:
 
-## 🤖 AI Quantitative Investment Recommendation Engine
+- Moving averages and trend signals
+- RSI and Bollinger Bands
+- Daily and logarithmic returns
+- Rolling realized volatility
+- Sector performance and market breadth
+- Investment recommendation logic
+- Long-horizon market-data analysis
 
-The system uses a multi-factor quantitative scoring model to generate investment recommendations.
-
-| Score | Recommendation | Strategy |
-|---|---|---|
-| 82–100 | STRONG BUY | Core Accumulation |
-| 68–81 | BUY / ACCUMULATE | Scale in on Pullbacks |
-| 52–67 | HOLD / NEUTRAL | Maintain Core Position |
-| 38–51 | TRIM / TAKE PROFIT | Lock Gains |
-| Below 38 | AVOID / HIGH RISK | Capital Preservation |
-
-### Financial Indicators
-
-- SMA 20 / 50 / 200
-- RSI (14)
-- Bollinger Bands
-- Sharpe Ratio
-- CAGR
-- Annualized Volatility
-- Maximum Drawdown
-- Risk Management and Stop-Loss Calculations
-
-## 📈 10-Year Global Market Intelligence
-
-The project supports longitudinal financial analysis across 27+ global assets.
-
-Key analytical capabilities:
-
-- 10-Year CAGR Analysis
-- Historical Returns and Volatility
-- Peak-to-Trough Drawdown Analysis
-- Long-Term Investment Evaluation
-- Global Asset Comparison
-- Historical Market Stress Testing
-
-### Historical Market Regimes
-
-- 2015 Oil Deflation Shock
-- 2020 COVID Liquidity Crash
-- 2022 Interest Rate Hike Shock
+The dashboard screenshot is an illustrative view of the interactive reporting layer; calculated values depend on the selected data and filters.
 
 ## 🛠️ Technology Stack
 
-| Category | Technologies |
+| Area | Tools |
 |---|---|
-| Big Data Processing | Apache Spark, PySpark, Spark SQL |
-| Cloud Data Platform | Databricks |
-| Data Architecture | Delta Lake, Medallion Architecture |
-| Programming | Python |
-| Data Analytics | Pandas, NumPy, SciPy |
-| Machine Learning | Scikit-Learn |
-| Business Intelligence | Microsoft Power BI |
-| Data Modeling | DAX, Power Query, Star Schema |
-| Visualization | Plotly, Chart.js |
-| Application Development | Streamlit |
-| Development Environment | Google Antigravity |
+| Data extraction | Python, yfinance, pandas, requests |
+| Distributed processing | Apache Spark, PySpark, Spark SQL |
+| Lakehouse storage | Delta Lake |
+| Data platform & governance | Databricks, Unity Catalog |
+| Analytics | NumPy, pandas, SciPy, scikit-learn |
+| Business intelligence | Microsoft Power BI, Tableau |
+| Visualization / app layer | Streamlit, Plotly, Chart.js |
+| Data modeling | Star Schema, DAX, Power Query |
+
+## 🗂️ Repository Structure
+
+```text
+Quantum-Horizon/
+├── README.md
+├── assets/
+│   └── powerbi-dashboard.jpeg
+└── BDA Project/
+    ├── financial-market-intelligence/
+    │   ├── README.md
+    │   ├── architecture-diagram.md
+    │   ├── 01_extraction/
+    │   ├── 02_databricks_notebooks/
+    │   ├── 03_dashboard_export/
+    │   ├── 04_dashboard/
+    │   ├── 05_powerbi_dashboard/
+    │   ├── add_investment_recommendation_engine.py
+    │   ├── generate_10y_global_data.py
+    │   ├── live_market_trend_analysis.ipynb
+    │   ├── upgrade_10y_global_intelligence.py
+    │   └── upgrade_pbi_10y.py
+    └── (additional project scripts)
+```
+
+## 🚀 Getting Started
+
+1. Open the [Financial Market Intelligence project folder](BDA%20Project/financial-market-intelligence/).
+2. Read its [detailed README and execution guide](BDA%20Project/financial-market-intelligence/README.md).
+3. Review the [architecture diagram](BDA%20Project/financial-market-intelligence/architecture-diagram.md).
+4. Follow the extraction, Databricks notebook, and dashboard-export steps documented there.
+
+> **Note:** The detailed README contains the pipeline-specific prerequisites, commands, storage paths, and Databricks execution instructions. Follow that guide for the current implementation rather than assuming the project can be run from the repository root.
 
 ## 👥 Project Team
 
@@ -133,31 +141,13 @@ Key analytical capabilities:
 | Vikash Kumar | Quantitative Modeling & AI Lead | Python, NumPy, SciPy, Scikit-Learn |
 | Yash Kumar Gautam | Power BI & Dimensional Modeling Architect | Power BI, DAX, Power Query |
 
-## 🚀 Key Achievements
-
-- Developed a distributed financial data processing architecture.
-- Implemented Bronze, Silver and Gold data layers.
-- Designed an enterprise Star Schema data model.
-- Developed quantitative investment scoring and recommendation logic.
-- Built an interactive Power BI financial intelligence dashboard.
-- Integrated financial analytics with a Streamlit application.
-- Enabled historical analysis across global financial assets.
-
-## 💡 Project Vision
-
-Quantum Horizon aims to bridge the gap between Big Data Engineering, Financial Analytics, and Intelligent Investment Decision Support.
-
-By combining scalable data processing with quantitative financial models and interactive dashboards, the platform transforms complex financial datasets into meaningful investment insights.
-
----
-
 ## ⚠️ Disclaimer
 
-This project is developed for educational and academic purposes as part of a Big Data Analytics Capstone Project. Investment recommendations are model-generated analytical outputs and should not be considered professional financial advice.
+This project is intended for educational and analytical purposes. Quantitative indicators and model-generated recommendations are informational outputs, not personalized investment advice.
 
 ---
 
 <p align="center">
   <strong>QUANTUM HORIZON</strong><br>
-  Big Data • Financial Intelligence • Quantitative Analytics • AI
+  Big Data • Financial Intelligence • Quantitative Analytics
 </p>
